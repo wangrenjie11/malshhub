@@ -1,5 +1,7 @@
+/#compare data like things
 def calculateSimlaritems (prefs, n=10):
   result={}
+      /#The object is centered on the preference matrix
      itemsPrefs=transformprefs(prefs)
 	   c=0
 	     for  items in  itemsPrefs:
